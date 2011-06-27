@@ -19,12 +19,12 @@ encryptions:
 works for now. As such please let me know any comments you have so that
 I can improve :)
 
-1. Build your database by running `populate-nothread.py`. 
-   a. At the moment this is unthreaded and saves records to the database
-      every 50 records - so watch out if you make searches while it's 
-      generating as the database will lock up.
-   b. Note that the default charset is very long and will take a long
-      time to complete :)
-2. Search using search.py
-3. Check the number of rows stored using count.py
-4. Check out the last 10 inserted rows using list.py
+1.  Build your database by running `populate-nothread.py`. 
+    *   At the moment this is unthreaded and saves records to the
+        database every 50 records - so watch out if you make searches
+        while it's generating as the database will lock up.
+    *   Note that the default charset is very long and will take a long
+        time to complete :)
+2. Search using `search.py`
+3. Check the number of rows stored using `count.py`
+4. Check out the last 10 inserted rows using `list.py`
