@@ -1,0 +1,6 @@
+*.db
+*.db-journal
+*.pyc
+# Ignore threaded versions for now until they can be done properly
+populate.py
+populate2.py
